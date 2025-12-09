@@ -1,0 +1,30 @@
+CONTENIDO DE LA APP
+
+Contenido del repositorio.
+
+Acá vamos a mencionar unos comandos.
+Si queremos agregar cambios a staging ejecutamos:
+
+git add [archivo]
+
+Puedes agregar multiples archivos con espacio entremedio
+O también utilizando patrones como por ejemplo:
+
+git add a*.js
+
+Este comando agregará todos los archivos que empiecen con a
+y terminen con la extension .js
+
+Vamos a agregar como se puede inicializar un proyecto:
+
+git init
+
+Esto inicializa un proyecto con git.
+
+Ahora para descartar cambios en area de trabajo:
+
+git restore archivo 
+
+Ahora para descartar cambios en area de staging:
+
+git restore --staged archivo 
